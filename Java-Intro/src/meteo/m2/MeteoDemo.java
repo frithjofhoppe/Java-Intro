@@ -25,7 +25,7 @@ public class MeteoDemo {
 		
 		System.out.println("\nMAX => "+m1.max().get(0));
 		System.out.println(m1.max().get(1));
-		
+		 
 		System.out.println("\nAVG => "+m1.average().get(0));
 		System.out.println(m1.average().get(1));
 	}
