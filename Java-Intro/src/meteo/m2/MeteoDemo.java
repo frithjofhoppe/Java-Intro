@@ -14,7 +14,7 @@ public class MeteoDemo {
 		liste.add(-1.3);
 		liste.add(-0.1);
 		liste.add(-2.2);
-		liste.add(-4.1);
+		liste.add(-4.1); 
 		liste.add(-6.3);*/
 		
 		double[] werte = {-8.1,-4.5,-2.1,-1.3,-0.1,-2.2,-4.1,-6.3,-10};
