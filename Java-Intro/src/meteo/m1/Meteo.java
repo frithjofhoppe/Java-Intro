@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Meteo {
 
 	public static void main(String[] args) {
-		double[] rawWeatherData = { -8.1, -4.5, -2.1, -1.3, -0.1, -2.2, -4.1, 10 };
+		double[] rawWeatherData = { -8.1, -4.5, -2.1, -1.3, -0.1, -2.2, -4.1, -10 };
 
 		System.out.println("Der Mittelwert ist:		" + average(rawWeatherData).get(0)
 				+ " Grad Celsius.Diese Temperatur wird als:  " + average(rawWeatherData).get(1) + " eingestuft");
