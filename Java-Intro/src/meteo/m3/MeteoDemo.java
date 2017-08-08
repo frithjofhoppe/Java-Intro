@@ -21,6 +21,8 @@ public class MeteoDemo {
 		
 		Meteo meteo = new Meteo(werte);
 		
+		
+		
 		/*
 		Meteo m1 = new Meteo(werte);
 		System.out.println("MIN => "+m1.min().get(0));
