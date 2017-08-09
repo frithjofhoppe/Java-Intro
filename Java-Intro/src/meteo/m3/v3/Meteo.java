@@ -7,6 +7,7 @@ public class Meteo implements Kenntage, Temperaturen
 	private double maxTemp = 0;
 	private double minTemp = 0;
 	private double avgTemp = 0;
+	TagesTemperaturen tagesTemp;
 
 	Meteo(double[] tempWerte)
 	{
@@ -14,6 +15,8 @@ public class Meteo implements Kenntage, Temperaturen
 
 		if (tempWerte != null || tempWerte.length != 0)
 		{
+			tagesTemp = new TagesTemperaturen(tempWerte);
+			
 			maxTemp = getMax();
 			minTemp = getMin();
 			avgTemp = getMittelWert();
@@ -140,7 +143,9 @@ public class Meteo implements Kenntage, Temperaturen
 	@Override
 	public double getMax()
 	{
-		double max = -1000000;
+		return tagesTemp.getMax();
+		
+		/*double max = -1000000;
 
 		for (
 				int i = 0; i < tempWerte.length; i++
@@ -152,13 +157,33 @@ public class Meteo implements Kenntage, Temperaturen
 			}
 		}
 
-		return max;
+		return max;*/
 	}
+
+	public double getMaxTemp() {
+		return maxTemp;
+	}
+
+
+
+	public double getMinTemp() {
+		return minTemp;
+	}
+
+
+
+	public double getAvgTemp() {
+		return avgTemp;
+	}
+
+
 
 	@Override
 	public double getMin()
 	{
-		double min = 1000000;
+		return tagesTemp.getMin();
+		
+		/*double min = 1000000;
 
 		for (
 				int i = 0; i < tempWerte.length; i++
@@ -170,13 +195,16 @@ public class Meteo implements Kenntage, Temperaturen
 			}
 		}
 
-		return min;
+		return min;*/
 	}
 
 	@Override
 	public double getMittelWert()
 	{
-		double average = 0;
+		
+		return tagesTemp.getMittelWert();
+		
+		/*double average = 0;
 
 		for (
 				int i = 0; i < tempWerte.length; i++
@@ -187,6 +215,6 @@ public class Meteo implements Kenntage, Temperaturen
 
 		average /= tempWerte.length;
 
-		return average;
+		return average;*/
 	}
 }

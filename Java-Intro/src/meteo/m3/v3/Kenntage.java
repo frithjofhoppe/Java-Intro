@@ -2,8 +2,11 @@ package meteo.m3.v3;
 
 public interface Kenntage {
 
-	double[] getTemperaturen();
-	double getMittelWert();
-	double getMin();
-	double getMax();
+	boolean isTropenNacht();
+	boolean isVegetationsTag();
+	boolean isFrostTag();
+	boolean isHeizTag();
+	boolean isWuestenTag();
+	boolean isHeisserTag();
+	boolean isSommerTag();
 }

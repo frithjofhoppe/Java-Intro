@@ -27,16 +27,16 @@ public class MeteoDemo
 					continue;
 				}
 				
-				if(i == m.getTempWerte().length-1)
+				/*if(i == m.getTempWerte().length-1)
 				{
 					temp+= ", "+m.getTempWerte()[i]+"\n";
 					break;
 				}
-				
+				*/
 				temp+= ", "+m.getTempWerte()[i];
 			}
 			
-			System.out.println("Eingegebenen Temperaturen: " + temp);
+			System.out.println("Eingegebenen Temperaturen: " + temp+"\n-MIN:"+m.getMin()+"\n-MAX:"+m.getMax()+"\n-AVG:"+m.getMittelWert()+"\n");
 		}
 	}
 
