@@ -52,6 +52,7 @@ public class SquareNumbers {
 
 	}
 
+	
 	public static ArrayList<String> sqaureText() {
 		ArrayList<String> output = new ArrayList<String>();
 
