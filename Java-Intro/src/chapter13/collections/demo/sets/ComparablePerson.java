@@ -29,6 +29,8 @@ public class ComparablePerson extends Person implements
 			return EQUAL;
 		}
 
+		
+		
 		// Die inhaltliche Prüfung soll in folgender Reihenfolge
 		// gemacht werden: firstname, lastname, nr
 		//

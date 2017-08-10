@@ -1,7 +1,11 @@
 package chapter15.assertions.demo;
 
+import chapter15.assertions.demo.SQLproblem.Category;
+
+
 class AssertionDemo {
 
+	@SQLproblem(category=Category.LOW)
 	public static void setRoomTemp(double temp) {
 
 		// Soll Temperatur auf "normalen Bereich" prüfen
@@ -16,6 +20,7 @@ class AssertionDemo {
 				+ " Grad eingestellt.");
 	}
 
+	
 	public static void main(String args[]) {
 
 		setRoomTemp(21.0);
