@@ -52,4 +52,4 @@ There we played with weather-forecasts and used Java-programming to autmatize th
 11.08.2017              Last Day
 
 ## Credits
-This thext has been written by [Philippe Krüttli](https://github.com/kruettlip) 
+This text has been written by [Philippe Krüttli](https://github.com/kruettlip) 
