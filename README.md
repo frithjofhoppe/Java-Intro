@@ -49,4 +49,7 @@ There we played with weather-forecasts and used Java-programming to autmatize th
 
 ## Dates
 07.08.2017			First Day        
-11.08.2017      Last Day
+11.08.2017              Last Day
+
+## Credits
+This thext has been written by [Philippe Krüttli](https://github.com/kruettlip) 
