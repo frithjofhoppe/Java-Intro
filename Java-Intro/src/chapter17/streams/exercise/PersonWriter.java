@@ -14,7 +14,7 @@ public class PersonWriter
 		{
 			String file = "src/chapter17/streams/exercise/personen.txt";
 			
-			BufferedWriter bf = new BufferedWriter(new FileWriter(file));
+			BufferedWriter bf = new BufferedWriter(new FileWriter(file,true));
 			
 			System.out.println("Datei <"+file+"> mit folgendem Inhalt wurde erstellt:");
 			
